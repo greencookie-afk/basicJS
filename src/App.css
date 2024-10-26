@@ -1,0 +1,56 @@
+/* src/App.css */
+
+/* Reset padding and margin */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling for full-width navbar */
+.navbar {
+  width: 100vw;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navbar list styling */
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+}
+
+/* Navbar list item styling */
+.navbar li {
+  cursor: pointer;
+  color: #fff;
+}
+
+/* Main content styling */
+.content {
+  margin-top: 150px;
+  height: 80vh;
+  align-items: center;
+  text-align: center;
+}
+
+/* Centered button styling */
+.center-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.center-button:hover {
+  background-color: #0056b3;
+}
